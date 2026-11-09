@@ -1,44 +1,47 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-MX">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eliminar tu cuenta – Sculpture Recovery y Sculpture Team</title>
-  <meta name="description" content="Solicita la eliminación de tu cuenta de Sculpture Recovery o Sculpture Team desde la app. Consulta las opciones por escrito sin la app, la verificación de identidad y la conservación clínica aplicable.">
+  <title>Eliminación de cuenta — Sculpture App</title>
+  <meta name="description" content="Solicita por correo la eliminación de tu cuenta de Sculpture Recovery o Sculpture Team, sin iniciar sesión ni reinstalar la app. Conoce la verificación de identidad y la conservación legal de datos.">
   <link rel="canonical" href="https://sculpturecancun.com/eliminar-cuenta/">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/legal-page.css">
   <style>
     main { padding-top: 40px; }
-    .deletion { font-size: 15px; line-height: 1.8; overflow-wrap: anywhere; }
+    .deletion { font-size: 16px; line-height: 1.8; overflow-wrap: anywhere; }
     .deletion h1 { font-size: clamp(36px, 6vw, 56px); }
     .deletion h2 { font-family: var(--fd); font-size: 30px; font-weight: 500; line-height: 1.25; margin: 36px 0 14px; }
-    .deletion h3 { font-size: 16px; margin: 20px 0 8px; }
-    .deletion p, .deletion ul { margin-bottom: 16px; }
-    .deletion ul { padding-left: 22px; }
-    .deletion li { margin-bottom: 8px; }
+    .deletion h3 { font-size: 17px; line-height: 1.5; margin: 24px 0 10px; }
+    .deletion p, .deletion ul, .deletion ol { margin-bottom: 18px; }
+    .deletion ul, .deletion ol { padding-left: 24px; }
+    .deletion li { margin-bottom: 9px; }
     .deletion a { color: inherit; text-underline-offset: .2em; }
     .deletion a:hover { color: var(--accent); }
     .deletion a:focus-visible { outline: 2px solid var(--text); outline-offset: 4px; }
     .deletion .language { text-align: right; font-size: 13px; margin-bottom: 16px; }
-    .deletion .intro { color: var(--muted); margin: 18px 0 24px; }
-    .request-options { padding: 20px; background: var(--bg-alt); border: 1px solid var(--border); border-radius: 4px; }
+    .deletion .intro { margin: 20px 0 26px; }
+    .request-options { padding: 24px; background: var(--bg-alt); border: 1px solid var(--border); border-radius: 4px; }
     .request-options h2 { margin-top: 0; }
-    .request-options h3:first-of-type { margin-top: 14px; }
     .request-options p:last-child { margin-bottom: 0; }
-    .request-options .email { display: inline-block; font-weight: 600; padding: 6px 0; }
-    .deletion .notice { padding-left: 16px; border-left: 2px solid var(--accent); }
-    .deletion .english { margin-top: 48px; padding-top: 12px; border-top: 1px solid var(--border); }
+    .deletion .request-button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; max-width: 100%; padding: 13px 20px; border: 1px solid var(--text); border-radius: 4px; background: var(--text); color: white; text-align: center; text-decoration: none; font-size: 15px; font-weight: 600; line-height: 1.45; }
+    .deletion .request-button:hover { color: white; background: #38312c; }
+    .email { font-weight: 600; }
+    .subject { font-weight: 500; }
+    .notice { padding: 16px 18px; border-left: 2px solid var(--accent); background: var(--bg-alt); }
+    .english { margin-top: 48px; padding-top: 12px; border-top: 1px solid var(--border); }
     .deletion .updated { margin-top: 32px; color: var(--muted); font-size: 13px; }
+    section, h2, h3, #sin-la-app { scroll-margin-top: 24px; }
     @media (max-width: 600px) {
       main { padding-top: 24px; }
-      .deletion .language { margin-bottom: 12px; }
       .deletion h2 { font-size: 27px; }
-      .request-options { padding: 16px; }
+      .request-options { padding: 20px; }
+      .deletion .request-button { width: 100%; }
     }
   </style>
 </head>
@@ -50,108 +53,77 @@
   <main>
     <article class="wrap deletion" aria-labelledby="titulo-eliminacion">
       <p class="language"><a href="#en" lang="en">English</a></p>
-      <h1 id="titulo-eliminacion">Eliminar tu cuenta</h1>
-      <p class="intro">Solicita la eliminación de tu cuenta de <strong>Sculpture Recovery</strong> o <strong>Sculpture Team</strong>. Las opciones siguientes distinguen la baja del acceso y los derechos sobre tus datos.</p>
+      <p class="label">Sculpture Recovery · Sculpture Team</p>
+      <h1 id="titulo-eliminacion">Eliminación de cuenta — Sculpture App</h1>
+      <p class="intro">Esta página permite iniciar la solicitud de eliminación de tu cuenta de <strong>Sculpture Recovery</strong> o <strong>Sculpture Team</strong> por correo electrónico. <strong>No necesitas iniciar sesión, tener la app instalada ni reinstalarla.</strong></p>
 
       <section class="request-options" aria-labelledby="como-solicitar">
-        <h2 id="como-solicitar">Cómo solicitarlo</h2>
-        <h3 id="desde-la-app">Desde la app</h3>
-        <p><strong>Recovery:</strong> Más › Tu cuenta › Eliminar mi cuenta.<br><strong>Team:</strong> Más › Configuración › Eliminar mi cuenta.</p>
-        <h3 id="sin-la-app">Sin la app</h3>
-        <p>Puedes entregar o enviar una solicitud escrita dirigida a <strong>Faustino Adolfo Moreno Medina</strong> en <strong>Avenida Bonampak, Lote 4, Supermanzana 4A, Manzana 1, Interior 906, C.P. 77500, Cancún, Quintana Roo, México</strong>. Indica que solicitas eliminar tu cuenta, qué app utilizas, tu nombre y un medio para recibir respuesta. La acreditación de identidad se realizará mediante un procedimiento seguro y con la información necesaria para el trámite.</p>
-        <p>Si necesitas orientación técnica sobre el acceso o las opciones de la app, consulta <a href="/soporte/">Soporte Sculpture App</a> o escribe al correo de soporte ya publicado: <a href="mailto:asist.sculpturecancun@gmail.com?subject=Orientaci%C3%B3n%20t%C3%A9cnica%20sobre%20eliminaci%C3%B3n%20de%20cuenta">asist.sculpturecancun@gmail.com</a>. Este contacto ofrece orientación; no se presenta como canal habilitado para tramitar derechos ARCO.</p>
+        <span id="sin-la-app" aria-hidden="true"></span>
+        <h2 id="como-solicitar">Cómo solicitar la eliminación</h2>
+        <p><a class="request-button" href="mailto:privacidad@sculpturecancun.com?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta%20Sculpture%20App&amp;body=Solicito%20la%20eliminaci%C3%B3n%20de%20mi%20cuenta%20de%20Sculpture%20App.%0A%0ANombre%3A%0AApp%20%28Sculpture%20Recovery%20o%20Sculpture%20Team%29%3A%0ACorreo%20asociado%20a%20la%20cuenta%3A%0A%0ANo%20incluyo%20informaci%C3%B3n%20cl%C3%ADnica%2C%20contrase%C3%B1as%20ni%20c%C3%B3digos%20de%20acceso.">Solicitar eliminación por correo</a></p>
+        <p>El botón prepara un correo; tú decides cuándo enviarlo. Si no abre tu aplicación de correo, escribe a <a class="email" href="mailto:privacidad@sculpturecancun.com?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta%20Sculpture%20App&amp;body=Solicito%20la%20eliminaci%C3%B3n%20de%20mi%20cuenta%20de%20Sculpture%20App.%0A%0ANombre%3A%0AApp%20%28Sculpture%20Recovery%20o%20Sculpture%20Team%29%3A%0ACorreo%20asociado%20a%20la%20cuenta%3A%0A%0ANo%20incluyo%20informaci%C3%B3n%20cl%C3%ADnica%2C%20contrase%C3%B1as%20ni%20c%C3%B3digos%20de%20acceso.">privacidad@sculpturecancun.com</a>.</p>
+        <ol>
+          <li>Preferentemente, envía la solicitud desde el correo asociado a tu cuenta.</li>
+          <li>Usa el asunto: <span class="subject">«Solicitud de eliminación de cuenta Sculpture App»</span>.</li>
+          <li>Indica únicamente tu <strong>nombre</strong>, la app correspondiente (<strong>Sculpture Recovery</strong> o <strong>Sculpture Team</strong>) y el <strong>correo asociado a la cuenta</strong>.</li>
+        </ol>
+        <p><strong>No envíes diagnósticos, fotografías, estudios, documentos clínicos, contraseñas ni códigos MFA o de acceso.</strong></p>
       </section>
 
-      <p style="margin-top:24px">El responsable de la atención y del tratamiento de los datos clínicos es <strong>Faustino Adolfo Moreno Medina</strong>, quien presta la atención en nombre propio. Su domicilio es <strong>Avenida Bonampak, Lote 4, Supermanzana 4A, Manzana 1, Interior 906, C.P. 77500, Cancún, Quintana Roo, México</strong>. Esta identificación corrige la referencia anterior a una sociedad y no representa una transferencia de tus datos a otro responsable.</p>
-      <p><strong>El soporte no solicita fotografías, identificaciones, datos clínicos, contraseñas ni códigos de acceso por correo.</strong> No los envíes a soporte. Cuando un trámite requiera acreditar identidad, se coordinará un procedimiento seguro y proporcionado a la solicitud.</p>
+      <section aria-labelledby="verificacion">
+        <h2 id="verificacion">Verificación de identidad</h2>
+        <p>Antes de ejecutar la eliminación verificaremos que la solicitud corresponde a la persona titular de la cuenta. Si no puedes escribir desde el correo registrado, podremos solicitar únicamente la información adicional estrictamente necesaria para verificar tu identidad, mediante un procedimiento seguro.</p>
+        <p>No necesitas compartir tu contraseña ni tus códigos de verificación. La solicitud por correo no exige iniciar sesión ni volver a instalar la app.</p>
+      </section>
 
-      <h2 id="verificacion">Cómo verificamos que eres tú</h2>
-      <p>Dentro de la app, confirma con tu contraseña y tu código de verificación en dos pasos, si lo tienes activado. La huella o el rostro por sí solos no sustituyen esta verificación.</p>
-      <p>Para solicitudes por escrito se verificará la identidad de la persona titular o, en su caso, las facultades de su representante. Se te indicará la información necesaria y el medio seguro para aportarla. La orientación por soporte no sustituye esa verificación y no requiere que compartas contraseñas o códigos de acceso.</p>
+      <section aria-labelledby="que-se-elimina">
+        <h2 id="que-se-elimina">Qué ocurre con tu cuenta</h2>
+        <p>Una vez verificada la solicitud y cumplidas las condiciones aplicables, se tramita la eliminación de la cuenta y se revoca su acceso a las aplicaciones. Los datos asociados que ya no deban conservarse por una obligación legal u otra base aplicable debidamente justificada se suprimirán según corresponda. No se promete un borrado inmediato de toda la información.</p>
+        <p>Si utilizas Recovery y Team con la misma cuenta, su eliminación cierra el acceso a ambas apps. El cierre también interrumpe el seguimiento y los avisos a través de la app; coordina la continuidad de tus cuidados con tu equipo por los medios de atención que te haya proporcionado.</p>
+        <h3 id="team">Si utilizas Sculpture Team</h3>
+        <p>La eliminación de la cuenta cierra todas tus membresías y el acceso a las organizaciones. Si eres la última persona administradora utilizable de una clínica, antes de ejecutarla deberá existir otra persona administradora con cuenta activa y los permisos necesarios. <strong>Esto no impide iniciar la solicitud por este correo</strong>; te informaremos de los pasos necesarios. Terminar una sola membresía no equivale a eliminar toda la cuenta.</p>
+        <h3 id="desde-la-app">La opción de la app sigue disponible</h3>
+        <p>Si ya tienes acceso, también puedes usar <strong>Recovery: Más › Tu cuenta › Eliminar mi cuenta</strong>, o <strong>Team: Más › Configuración › Eliminar mi cuenta</strong>. Es una alternativa; no es un requisito para presentar la solicitud por correo.</p>
+      </section>
 
-      <h2 id="que-se-elimina">Qué se elimina</h2>
-      <ul>
-        <li>La identidad que usas para entrar a la app, incluida la contraseña y la verificación en dos pasos, cuando se ejecuta la eliminación.</li>
-        <li>Todas tus sesiones y el acceso a la app se revocan al aceptar la solicitud verificada.</li>
-        <li>Los identificadores de tus dispositivos para recibir notificaciones se eliminan y los avisos se deshabilitan.</li>
-        <li>En la app, el desbloqueo con huella o rostro se borra del almacenamiento local al cerrar tu sesión.</li>
-      </ul>
-      <p>El cierre del acceso es el primer paso. El resultado de la solicitud y, cuando proceda, la información que deba conservarse se comunicarán mediante el medio de respuesta seguro que se acuerde al verificar tu identidad.</p>
+      <section aria-labelledby="que-se-conserva">
+        <h2 id="que-se-conserva">Qué datos pueden conservarse temporalmente</h2>
+        <p class="notice"><strong>Eliminar la cuenta no implica destruir anticipadamente el expediente clínico ni la información que deba conservarse legalmente.</strong></p>
+        <p>Cuando resulte aplicable la <a href="https://sidof.segob.gob.mx/notas/docFuente/5272787">NOM-004-SSA3-2012, numeral 5.4</a>, el expediente clínico debe conservarse un <strong>mínimo de cinco años desde el último acto médico</strong>. Este mínimo no se extiende automáticamente a todos los datos técnicos o de la cuenta.</p>
+        <p>También pueden conservarse la autoría de actuaciones clínicas y los registros o constancias de seguridad, auditoría y de la solicitud, solo en la medida y durante el tiempo que una obligación o base aplicable lo justifique.</p>
+        <p>La información retenida permanecerá con acceso restringido o bloqueada, según corresponda, únicamente durante el plazo legal aplicable. No se utilizará para finalidades incompatibles y se suprimirá al terminar la obligación de conservación, salvo que exista otra obligación legal válida.</p>
+        <p id="plazos">Te informaremos del resultado de tu solicitud y, cuando corresponda, de los datos que deban conservarse, su motivo y los plazos o criterios aplicables. El cierre de la cuenta no impide ejercer tus derechos de privacidad.</p>
+      </section>
 
-      <h2 id="que-se-conserva">Qué se conserva y por qué</h2>
-      <p class="notice">Eliminar la cuenta <strong>no borra automáticamente tu expediente clínico</strong>. Se conservarán los datos y documentos cuya conservación resulte exigible para la atención, el expediente clínico, el cumplimiento de obligaciones legales o la determinación de responsabilidades, con el alcance y por el tiempo que corresponda a cada categoría.</p>
-      <ul>
-        <li>Cuando formen parte de la documentación clínica que deba conservarse: identificación, episodios, seguimientos, indicaciones, medicamentos, citas, estudios, documentos, mensajes, fotografías y archivos clínicos.</li>
-        <li>La autoría de actuaciones clínicas y las constancias legales, de auditoría, seguridad y de la solicitud, en la medida necesaria y con un fundamento aplicable.</li>
-        <li>Las copias de respaldo que deban sujetarse a su ciclo de conservación y supresión, con acceso restringido y sin reutilización para fines distintos.</li>
-      </ul>
-      <p>La conservación se determinará por categoría y fundamento; el mínimo aplicable al expediente clínico no se extiende automáticamente a todos los datos técnicos de la app. Los datos que ya no deban conservarse estarán sujetos al bloqueo o supresión que proceda. En la respuesta a tu solicitud se explicarán los datos retenidos, la causa y los plazos o criterios aplicables.</p>
-      <p>El acceso desde la app se cierra. El personal autorizado solo podrá conservar el acceso que corresponda a la atención y a las obligaciones aplicables. Puedes ejercer tus derechos aunque cierres la cuenta: consulta el <a href="/privacidad/">Aviso de Privacidad para pacientes</a> o el <a href="/privacidad/team/">Aviso de Privacidad de usuarios de Team</a>.</p>
-
-      <h2 id="plazos">Plazos y resultado</h2>
-      <p>En la app, el acceso se cierra al aceptar la solicitud verificada. En una solicitud por escrito, deberá acreditarse la identidad y registrarse la petición antes de ejecutar las actuaciones que procedan. Pedir orientación técnica por correo no elimina por sí solo la cuenta.</p>
-      <p>Las solicitudes de derechos ARCO se atienden con los plazos legales aplicables: hasta <strong>20 días hábiles</strong> para comunicar la determinación y, si procede, <strong>15 días hábiles siguientes</strong> para hacerla efectiva, con las ampliaciones justificadas que permite la ley. Estos plazos corresponden al trámite de datos cuando resulte aplicable. El cierre del acceso mediante la función de la app sigue su procedimiento de solicitud verificada.</p>
-
-      <h2>Si estás en recuperación</h2>
-      <p>Al cerrar tu acceso dejarás de recibir el seguimiento y los avisos por la app. Comunícate con tu equipo por los medios de atención que te haya proporcionado para continuar tus cuidados. Los teléfonos ya publicados son <a href="tel:+529981565310">+52 998 156 5310 (ES)</a> y <a href="tel:+529985376219">+52 998 537 6219 (EN)</a>. <strong>En una urgencia, llama a los servicios de emergencia.</strong></p>
-
-      <h2 id="team">Personal clínico Sculpture Team</h2>
-      <ul>
-        <li>Eliminar tu cuenta cierra <strong>todas tus membresías</strong> y tu acceso a las organizaciones.</li>
-        <li>El nombre y el puesto asociados a las actuaciones clínicas se conservarán cuando corresponda mantener su autoría y trazabilidad, con el alcance y plazo aplicables.</li>
-        <li>Si eres la <strong>última persona administradora utilizable</strong> de una clínica, la solicitud se bloquea. Primero debe haber otra persona administradora con una cuenta activa y los permisos de administración necesarios. Para orientación técnica sobre este relevo, consulta <a href="/soporte/">Soporte Sculpture App</a>. Esta condición operativa no impide presentar por escrito una solicitud de derechos sobre tus datos.</li>
-        <li>Si una clínica solo <strong>termina tu membresía</strong>, tu cuenta sigue existiendo. Para eliminar la identidad completa, solicita la eliminación de cuenta.</li>
-      </ul>
-      <h2>Si usas las dos apps</h2>
-      <p>Si usas Recovery y Team con la misma cuenta, eliminarla cierra tu acceso a las dos apps.</p>
-      <h2 id="contacto">Privacidad y solicitudes escritas</h2>
-      <p>Dirige tu solicitud a <strong>Faustino Adolfo Moreno Medina</strong> en <strong>Avenida Bonampak, Lote 4, Supermanzana 4A, Manzana 1, Interior 906, C.P. 77500, Cancún, Quintana Roo, México</strong>. Consulta <a href="/privacidad/">Privacidad pacientes</a> · <a href="/privacidad/team/">Privacidad Team</a> · <a href="/terminos/">Términos Recovery</a> · <a href="/terminos/team/">Términos Team</a>.</p>
+      <section aria-labelledby="contacto">
+        <h2 id="contacto">Contacto de privacidad</h2>
+        <p>Responsable actual: <strong>Faustino Adolfo Moreno Medina</strong>, quien presta la atención médica en nombre propio y opera Sculpture Recovery y Sculpture Team.</p>
+        <p>Para solicitar la eliminación de cuenta y atender asuntos de privacidad: <a class="email" href="mailto:privacidad@sculpturecancun.com?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta%20Sculpture%20App&amp;body=Solicito%20la%20eliminaci%C3%B3n%20de%20mi%20cuenta%20de%20Sculpture%20App.%0A%0ANombre%3A%0AApp%20%28Sculpture%20Recovery%20o%20Sculpture%20Team%29%3A%0ACorreo%20asociado%20a%20la%20cuenta%3A%0A%0ANo%20incluyo%20informaci%C3%B3n%20cl%C3%ADnica%2C%20contrase%C3%B1as%20ni%20c%C3%B3digos%20de%20acceso.">privacidad@sculpturecancun.com</a>. Utiliza este canal para solicitudes de privacidad; el soporte general se mantiene separado.</p>
+        <p>Consulta el <a href="/privacidad/">Aviso de Privacidad para pacientes v1.2</a> y el <a href="/privacidad/team/">Aviso de Privacidad de usuarios de Team v1.2</a>. Para orientación técnica sobre el uso de las apps, visita <a href="/soporte/">Soporte Sculpture App</a>.</p>
+      </section>
 
       <section id="en" lang="en" class="english" aria-labelledby="english-title">
-        <h2 id="english-title">Delete your Sculpture Recovery or Sculpture Team account</h2>
-        <p>The person responsible for medical care and clinical personal data is <strong>Faustino Adolfo Moreno Medina</strong>, acting in his own name. His address is <strong>Avenida Bonampak, Lote 4, Supermanzana 4A, Manzana 1, Interior 906, C.P. 77500, Cancún, Quintana Roo, México</strong>. This corrects the earlier identification of a company and does not transfer your data to a different controller.</p>
+        <h2 id="english-title">Account deletion — Sculpture App</h2>
+        <p>You can request deletion of your <strong>Sculpture Recovery</strong> or <strong>Sculpture Team</strong> account by email. <strong>No app login, installation or reinstallation is required.</strong></p>
         <h3>How to request deletion</h3>
-        <p><strong>In Recovery:</strong> More › Your account › Delete my account.<br><strong>In Team:</strong> More › Settings › Delete my account.</p>
-        <p><strong>Without the app:</strong> deliver or send a written request addressed to <strong>Faustino Adolfo Moreno Medina</strong> at <strong>Avenida Bonampak, Lote 4, Supermanzana 4A, Manzana 1, Interior 906, C.P. 77500, Cancún, Quintana Roo, México</strong>. State that you request account deletion, the app you use, your name and a means of receiving a response. Your identity or representative authority will be verified through a secure process using the information necessary for the request.</p>
-        <p>For technical guidance about access or the app options, see <a href="/soporte/">Sculpture App Support</a> or the already published support address <a href="mailto:asist.sculpturecancun@gmail.com?subject=Technical%20guidance%20on%20account%20deletion">asist.sculpturecancun@gmail.com</a>. This contact provides guidance and is not presented as an enabled channel for ARCO requests.</p>
+        <p><a class="request-button" href="mailto:privacidad@sculpturecancun.com?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta%20Sculpture%20App&amp;body=Solicito%20la%20eliminaci%C3%B3n%20de%20mi%20cuenta%20de%20Sculpture%20App.%0A%0ANombre%3A%0AApp%20%28Sculpture%20Recovery%20o%20Sculpture%20Team%29%3A%0ACorreo%20asociado%20a%20la%20cuenta%3A%0A%0ANo%20incluyo%20informaci%C3%B3n%20cl%C3%ADnica%2C%20contrase%C3%B1as%20ni%20c%C3%B3digos%20de%20acceso.">Request account deletion by email</a></p>
+        <p>Write to <a class="email" href="mailto:privacidad@sculpturecancun.com?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta%20Sculpture%20App&amp;body=Solicito%20la%20eliminaci%C3%B3n%20de%20mi%20cuenta%20de%20Sculpture%20App.%0A%0ANombre%3A%0AApp%20%28Sculpture%20Recovery%20o%20Sculpture%20Team%29%3A%0ACorreo%20asociado%20a%20la%20cuenta%3A%0A%0ANo%20incluyo%20informaci%C3%B3n%20cl%C3%ADnica%2C%20contrase%C3%B1as%20ni%20c%C3%B3digos%20de%20acceso.">privacidad@sculpturecancun.com</a>, preferably from your registered account email. Suggested subject: “Solicitud de eliminación de cuenta Sculpture App”. Include only your name, the app name and the email associated with the account. The button prepares a message; it does not send it for you.</p>
+        <p><strong>Do not send diagnoses, photographs, studies, clinical documents, passwords or MFA/access codes.</strong></p>
         <h3>Identity verification</h3>
-        <p>In the app, confirm your password and your two-step verification code if enabled. Fingerprint or face unlock alone is not sufficient. Written requests require verification of the account holder or representative through a secure and proportionate procedure. <strong>Support does not request photographs, identification documents, clinical data, passwords or access codes by email. Do not send them to support.</strong></p>
-        <h3>What is deleted</h3>
-        <ul>
-          <li>Your sign-in identity, password and two-step verification are removed when deletion is executed.</li>
-          <li>All sessions and app access are revoked when the verified request is accepted.</li>
-          <li>Device notification identifiers are removed and notifications are disabled.</li>
-          <li>Fingerprint or face unlock data stored locally by the app is cleared when the app signs you out.</li>
-        </ul>
-        <p>Closing access is the first step. The outcome and any applicable retention information will be communicated through the secure response method agreed during identity verification.</p>
-        <h3>What is retained and why</h3>
-        <p>Account deletion <strong>does not automatically erase your clinical record</strong>. Data and documents subject to applicable care, medical record, legal or responsibility requirements will be retained only to the extent and for the period applicable to their category.</p>
-        <p>Where required, this may include identification, episodes, follow-ups, instructions, medications, appointments, studies, documents, messages, photographs and clinical files; authorship of clinical actions; and necessary acceptance, audit, security and request records. Backups are subject to their retention and deletion cycle, restricted access and limits on reuse.</p>
-        <p>A medical record retention minimum does not automatically apply to every technical data item. Data no longer required will be blocked or deleted as applicable. The response to your request will explain any retained data, the basis and the applicable period or criteria. Closing the account does not prevent you from exercising your data rights.</p>
-        <h3>Timing and outcome</h3>
-        <p>In the app, access ends when the verified request is accepted. Written requests require identity verification and registration before the appropriate actions are taken. Asking support for technical guidance by email does not itself delete the account.</p>
-        <p>Where the ARCO procedure applies, the legal periods are up to <strong>20 business days</strong> to communicate the decision and, if approved, <strong>15 further business days</strong> to carry it out, subject to the justified extensions permitted by law. The in-app account closure function follows its verified-request procedure.</p>
-        <h3>If you are recovering</h3>
-        <p>Follow-up and notifications through the app stop when access closes. Use the care contacts provided by your team to continue care. The already published numbers are <a href="tel:+529981565310">+52 998 156 5310 (Spanish)</a> and <a href="tel:+529985376219">+52 998 537 6219 (English)</a>. <strong>In an emergency, call emergency services.</strong></p>
-        <h3>Clinical staff Sculpture Team</h3>
-        <ul>
-          <li>Account deletion ends <strong>all your memberships</strong> and organization access.</li>
-          <li>Your name and job title linked to clinical actions may be retained where required to preserve authorship and traceability, to the extent and for the period applicable.</li>
-          <li>If you are a clinic's <strong>last usable administrator</strong>, the request is blocked. Another administrator with an active account and the required administrative permissions is needed first. See <a href="/soporte/">Sculpture App Support</a> for technical guidance. This operational condition does not prevent a written request to exercise data rights.</li>
-          <li>Ending a membership in one clinic does not delete the account. Request account deletion to remove the full identity.</li>
-        </ul>
-        <h3>If you use both apps</h3>
-        <p>If you use Recovery and Team with the same account, deletion closes access to both apps.</p>
-        <h3>Privacy and written requests</h3>
-        <p>Address your written request to <strong>Faustino Adolfo Moreno Medina</strong> at <strong>Avenida Bonampak, Lote 4, Supermanzana 4A, Manzana 1, Interior 906, C.P. 77500, Cancún, Quintana Roo, México</strong>. See <a href="/privacidad/">Patient Privacy Notice</a> · <a href="/privacidad/team/">Team User Privacy Notice</a> · <a href="/terminos/">Recovery Terms</a> · <a href="/terminos/team/">Team Terms</a>.</p>
+        <p>We verify the account holder before acting on the request. If you cannot write from your registered email, we may request only the additional information strictly necessary to verify your identity through a secure process. You do not need to share passwords or verification codes or return to the app.</p>
+        <h3>What happens to your account</h3>
+        <p>Once the request is verified and the applicable conditions are met, we process account deletion and revoke app access. Associated data no longer subject to a legal obligation or another duly justified applicable basis will be deleted as appropriate. Immediate deletion of all information is not promised.</p>
+        <p>If you use both apps with the same account, deletion ends access to both. Follow-up and notifications through the apps stop; arrange continued care through the contacts provided by your clinical team.</p>
+        <p>For Team, deletion ends all memberships. A clinic’s last usable administrator needs another active administrator with the necessary permissions before execution. You can still initiate the request by email and receive guidance about the necessary steps. Ending one membership does not delete the whole account. The existing in-app deletion options remain optional alternatives.</p>
+        <h3>Data that may be retained temporarily</h3>
+        <p>Closing an account does not require premature destruction of legally retained clinical records. Where NOM-004-SSA3-2012 applies, the clinical record must be kept for at least five years after the last medical act. This minimum does not automatically apply to every technical or account data item.</p>
+        <p>Clinical authorship and necessary security, audit and request records may also be retained only for a justified applicable obligation or basis. Retained information remains access-restricted or blocked as appropriate for the applicable legal period, is not used for incompatible purposes, and is deleted when the retention obligation ends unless another valid legal obligation applies. We will explain the outcome and any retained data, reason and applicable period or criteria.</p>
+        <h3>Privacy contact</h3>
+        <p>The current controller is <strong>Faustino Adolfo Moreno Medina</strong>, acting in his own name and operating both apps. Contact <a class="email" href="mailto:privacidad@sculpturecancun.com?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta%20Sculpture%20App&amp;body=Solicito%20la%20eliminaci%C3%B3n%20de%20mi%20cuenta%20de%20Sculpture%20App.%0A%0ANombre%3A%0AApp%20%28Sculpture%20Recovery%20o%20Sculpture%20Team%29%3A%0ACorreo%20asociado%20a%20la%20cuenta%3A%0A%0ANo%20incluyo%20informaci%C3%B3n%20cl%C3%ADnica%2C%20contrase%C3%B1as%20ni%20c%C3%B3digos%20de%20acceso.">privacidad@sculpturecancun.com</a>. See the <a href="/privacidad/">Patient Privacy Notice v1.2</a> and <a href="/privacidad/team/">Team Privacy Notice v1.2</a>. General <a href="/soporte/">technical support</a> remains separate.</p>
       </section>
-      <p class="updated">Versión 1.1 · Actualización 7 de noviembre de 2026 / Version 1.1 · Updated November 7, 2026.</p>
+      <p class="updated">Actualización de esta página: 9 de noviembre de 2026. Los avisos de privacidad enlazados conservan su versión v1.2.</p>
     </article>
   </main>
-  <footer>
-    <div><img src="/logo.png" alt="Sculpture Cancún"><p>Faustino Adolfo Moreno Medina<br>Avenida Bonampak, Lote 4, Supermanzana 4A, Manzana 1, Interior 906, C.P. 77500, Cancún, Quintana Roo, México</p></div>
-    <div class="foot-center"><p>© 2026 Sculpture Cancún.<br>Todos los derechos reservados.</p><p class="foot-legal"><a href="/privacidad/">Privacidad pacientes</a> · <a href="/privacidad/team/">Privacidad Team</a> · <a href="/terminos/">Términos Recovery</a> · <a href="/terminos/team/">Términos Team</a> · <a href="/eliminar-cuenta/">Eliminar cuenta</a></p></div>
-    <div class="foot-right"><p>+52 998 156 5310 (ES)<br>+52 998 537 6219 (EN)</p></div>
-  </footer>
+  <footer><div><a href="/"><img src="/logo.png" alt="Sculpture Cancún"></a><p>Faustino Adolfo Moreno Medina<br>Domicilio del responsable: Avenida Bonampak, Lote 4, Supermanzana 4A, Manzana 1, Interior 906, C.P. 77500, Cancún, Quintana Roo, México.<br>Privacidad: <a href="mailto:privacidad@sculpturecancun.com">privacidad@sculpturecancun.com</a></p></div><div class="foot-center"><p>© 2026 Faustino Adolfo Moreno Medina</p><p class="foot-legal"><a href="/privacidad/">Privacidad de pacientes</a> · <a href="/privacidad/team/">Privacidad de Team</a> · <a href="/terminos/">Términos de Recovery</a> · <a href="/terminos/team/">Términos de Team</a> · <a href="/eliminar-cuenta/">Eliminar cuenta</a> · <a href="/soporte/">Soporte</a></p></div><div class="foot-right"><p><a href="tel:+529981565310">+52 998 156 5310 (ES)</a><br><a href="tel:+529985376219">+52 998 537 6219 (EN)</a></p></div></footer>
 </body>
 </html>
