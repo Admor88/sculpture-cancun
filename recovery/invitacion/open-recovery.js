@@ -7,7 +7,7 @@ const canonical = location.origin === 'https://sculpturecancun.com'
   && location.search === '';
 const fragment = location.hash;
 history.replaceState(null, '', location.pathname);
-const expected = /^#realm=(?:wrbxakeucjqykhqnqosf|bwhoregqfexvjpzvwccu)&proof=[0-9a-f]{64}(?:&auth_type=(?:invite|magiclink)&token_hash=[0-9a-f]{64})?$/;
+const expected = /^#realm=(?:wrbxakeucjqykhqnqosf|bwhoregqfexvjpzvwccu)&proof=[0-9a-f]{64}(?:&auth_type=(?:invite|magiclink)&token_hash=(?:[0-9a-f]{56}|[0-9a-f]{64}))?$/;
 const status = document.getElementById('status');
 const button = document.getElementById('open-app');
 if (!canonical || !expected.test(fragment)) {
