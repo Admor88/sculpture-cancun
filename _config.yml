@@ -1,0 +1,3 @@
+# Keep the Apple Associated Domains association in the existing Pages build.
+include:
+  - .well-known
